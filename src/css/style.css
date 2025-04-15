@@ -18,7 +18,6 @@
 }
 
 html {
-    font-size: 62.5%;
     font-family: var(--fonte);
 }
 
@@ -47,20 +46,20 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2.2rem;
-    margin: 0 5.4rem;
+    gap: 1.375rem;
+    margin: 0 3.375rem;
 }
 
 .principal__apresentacao__texto {
     font-weight: var(--peso-titulo);
     color: var(--cor-titulo);
-    font-size: 2.8rem;
+    font-size: 1.75rem;
     text-align: center; 
 }
 
 .principal__apresentacao__img {
     width: 59%;
-    margin-bottom: 3.2rem;
+    margin-bottom: 2rem;
 }
 
 .principal__apresentacao__btn {
@@ -73,9 +72,9 @@ body {
 
 .principal__apresentacao__btn__link {
     width: 87%;
-    padding: 1.6rem;
+    padding: 1rem;
     background-color: var(--cor-btn);
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: var(--cor-titulo);
     text-decoration: none;
     text-align: center;
@@ -90,7 +89,7 @@ body {
 .principal__apresentacao__btn--link-2 {
     background-color: transparent;
     border: var(--cor-titulo) solid 1px;
-    margin-top: 1.6rem;
+    margin-top: 1rem;
 }
 
 .principal__apresentacao__btn--link-2:hover {
@@ -101,34 +100,34 @@ body {
 .principal__apresentacao__btn__condicao {
     text-align: center;
     color: var(--cor-sub);
-    font-size: 1.2rem;
-    margin-top: .5rem;
+    font-size: .75rem;
+    margin-top: .3125rem;
 }
 
 .secundario {
     align-items: center;
-    margin: 0 10rem;
+    margin: 0 6.25rem;
 }
 
 .secundario__img {
     width: 80%;
-    margin-left: 5rem;
+    margin-left: 3.125rem;
 }
 
 .secundario__descricao {
     display: flex;
     flex-direction: column;
-    gap: 1.6rem;
+    gap: 1rem;
 }
 
 .secundario__descricao__titulo {
     font-weight: var(--peso-titulo);
     color: var(--cor-titulo);
-    font-size: 4.8rem;
+    font-size: 3rem;
 }
 
 .secundario__descricao__texto {
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: var(--cor-texto);
 }
 
@@ -136,10 +135,10 @@ body {
     width: 34%;
     background-color: var(--cor-btn);
     color: var(--cor-titulo);
-    font-size: 1.6rem;
+    font-size: 1rem;
     text-align: center;
     text-decoration: none;
-    padding: 1.6rem;
+    padding: 1rem;
     border-radius: 8px;
 } 
 
@@ -151,7 +150,7 @@ body {
 .final {
     display: flex;
     align-items: center;
-    gap: 6.9rem;
+    gap: 4.3125rem;
     margin: 0 5%;
 }
 
@@ -162,7 +161,7 @@ body {
 .final__descricao__titulo {
     font-weight: var(--peso-titulo);
     color: var(--cor-titulo);
-    font-size: 4.8rem;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -170,8 +169,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6.9rem;
-    margin-top: 4rem;
+    gap: 4.3125rem;
+    margin-top: 2.5rem;
 }
 
 .final__descricao__quadro__box {
@@ -179,7 +178,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.6rem;
+    gap: 1rem;
     width: 30%;
 }
 
@@ -189,7 +188,7 @@ body {
 
 .final__descricao__quadro__box__titulo {
     font-weight: var(--peso-titulo);
-    font-size: 3.2rem;
+    font-size: 2rem;
     color: var(--cor-titulo);
     text-align: center;
 }
@@ -198,13 +197,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4.0rem;
+    gap: 2.5rem;
     margin: 0 5% 7%;
 }
 
 .rodape__linha {
     display: flex;
-    gap: 1.6rem;
+    gap: 1rem;
 }
 
 .rodape__linha--2 {
@@ -212,7 +211,7 @@ body {
 }
 
 .rodape__linha__link {
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: var(--cor-titulo);
     text-decoration: none;
 }
@@ -223,7 +222,7 @@ body {
 }
 
 .rodape__linha__texto {
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: var(--cor-sub);
     text-align: center;
 }
@@ -237,7 +236,7 @@ body {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
-        gap: 6.9rem;
+        gap: 4.3125rem;
     }
 
     .secundario__img {
@@ -251,7 +250,7 @@ body {
 
 @media (max-width:480px) {
     html {
-        font-size: 50%;
+        font-size: 60%;
     }
 
     .container {
@@ -259,7 +258,7 @@ body {
     }
 
     .principal__apresentacao__img {
-        display: none;
+        margin-bottom: 150px;
     }
 
     .secundario {
